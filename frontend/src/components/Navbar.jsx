@@ -12,7 +12,7 @@ export default function Navbar() {
       alignItems: 'center',
     }}>
       <div style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>
-        Wonderpet
+        WonderPet
       </div>
       <div style={{ display: 'flex', gap: '1.5rem' }}>
         <Link to='/' style={{ color: '#fff', textDecoration: 'none' }}>Home</Link>
