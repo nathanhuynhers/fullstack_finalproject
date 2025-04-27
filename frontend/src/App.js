@@ -9,6 +9,7 @@ import LoginPage from './components/LoginPage'
 import Home from './components/Home'
 import Dashboard from './components/Dashboard'
 import { AuthProvider } from './AuthContext';
+import PetProfileCreation from './components/PetProfileCreation';
 
 
 function Contact() {
@@ -34,6 +35,7 @@ export default function App() {
           <Route path='/login' element={<LoginPage />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/petprofilecreation' element={<PetProfileCreation />} />
         </Routes>
       </Router>
     </AuthProvider>
