@@ -55,6 +55,7 @@ export default function Navbar() {
           <Link to="/contact" style={{ color: '#fff', textDecoration: 'none' }}>Contact</Link>
           <Link to="/about" style={{ color: '#fff', textDecoration: 'none' }}>About</Link>
           <Link to="/login" style={{ color: '#fff', textDecoration: 'none' }}>Login</Link>
+          <Link to="/PetProfileCreation" style={{ color: '#fff', textDecoration: 'none' }}>Profile</Link>
         </div>
       )}
     </nav>
