@@ -19,6 +19,7 @@ export default function SignUp() {
 
       await updateProfile(userCredential.user, {
         displayName: name,
+        email: email,
       });
 
       console.log('Signed up:', userCredential.user);
